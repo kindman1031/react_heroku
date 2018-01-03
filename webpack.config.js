@@ -66,7 +66,7 @@ module.exports = function makeWebpackConfig() {
   config.devServer = {
     contentBase: './src',
     historyApiFallback: true,
-    port: 8080,
+    port: process.env.PORT || 8080,
     stats: 'minimal'
   };
 
