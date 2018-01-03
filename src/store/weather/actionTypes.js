@@ -1,0 +1,11 @@
+export const FETCH_ONE = 'weather/FETCH_ONE';
+export const FETCH_ONE_SUCCESS = 'weather/FETCH_ONE_SUCCESS';
+export const FETCH_COLLECTION = 'weather/FETCH_COLLECTION';
+export const FETCH_COLLECTION_SUCCESS = 'weather/FETCH_COLLECTION_SUCCESS';
+export const CREATE = 'weather/CREATE';
+export const CREATE_SUCCESS = 'weather/CREATE_SUCCESS';
+export const UPDATE = 'weather/UPDATE';
+export const UPDATE_SUCCESS = 'weather/UPDATE_SUCCESS';
+export const DELETE = 'weather/DELETE';
+export const DELETE_SUCCESS = 'weather/DELETE_SUCCESS';
+export const SETPAGENUMBER = 'weather/SETPAGENUMBER';
