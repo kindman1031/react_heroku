@@ -11,8 +11,8 @@ export class Login extends React.Component {
     super(props, context);
 
     this.state = {
-      email: 'user@example.com',
-      password: 'secret'
+      email: '',
+      password: ''
     };
   }
 
